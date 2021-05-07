@@ -29,5 +29,5 @@
 - I. 4个系统地址寄存器 CDTR、IDTR、LDTR、TR
 - J. 其他寄存器 TSC
 
-#### 值得一提的事，有的资料上只将 RAX、RBX、RCX、RDX 称为通用寄存器，有的资料中将 RAX ~ RDX,RSI\RDI,RBP\RSP,R8~R15统一称为通用寄存器,而在 xcode 的x86_64程序调试中，可以看到通用寄存器的范围更是扩大了.
+##### 值得一提的事，有的资料上只将 RAX、RBX、RCX、RDX 称为通用寄存器，有的资料中将 RAX ~ RDX,RSI\RDI,RBP\RSP,R8~R15统一称为通用寄存器,而在 xcode 的x86_64程序调试中，可以看到通用寄存器的范围更是扩大了.
 ![avatar](./img/1.png)
